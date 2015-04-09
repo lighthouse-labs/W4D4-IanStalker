@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="viewController" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -34,10 +34,10 @@
                                 <exclude reference="dAr-GS-3F1"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="x9O-nv-KyH"/>
                                 <exclude reference="DcJ-SY-0QB"/>
                                 <exclude reference="T2G-C4-vMI"/>
                                 <exclude reference="V0C-yQ-DW4"/>
-                                <exclude reference="x9O-nv-KyH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -45,10 +45,10 @@
                                 <include reference="dAr-GS-3F1"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="x9O-nv-KyH"/>
                                 <include reference="DcJ-SY-0QB"/>
                                 <include reference="T2G-C4-vMI"/>
                                 <include reference="V0C-yQ-DW4"/>
-                                <include reference="x9O-nv-KyH"/>
                             </mask>
                         </variation>
                     </view>

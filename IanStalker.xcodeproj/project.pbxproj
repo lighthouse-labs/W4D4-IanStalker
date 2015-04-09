@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2852644D1AD6E2F500E7D7AD /* IanLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852644C1AD6E2F500E7D7AD /* IanLocations.m */; };
 		28F62A331ACDAA2700258EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F62A321ACDAA2700258EDE /* main.m */; };
 		28F62A361ACDAA2700258EDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F62A351ACDAA2700258EDE /* AppDelegate.m */; };
 		28F62A391ACDAA2700258EDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F62A381ACDAA2700258EDE /* ViewController.m */; };
@@ -17,6 +18,8 @@
 		28F62A571ACDAAD900258EDE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F62A561ACDAAD900258EDE /* CoreLocation.framework */; };
 		28F62A591ACDAADF00258EDE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F62A581ACDAADF00258EDE /* MapKit.framework */; };
 		28F62A5B1ACDAC4500258EDE /* default.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 28F62A5A1ACDAC4500258EDE /* default.gpx */; };
+		3D0ABA2A2687311E2DA33A14 /* libPods-IanStalkerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43B4BA87C7F166B978DC926 /* libPods-IanStalkerTests.a */; };
+		77AB37181C498FF8C2F7BC4B /* libPods-IanStalker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F1B742B9B1B304E9057DD7 /* libPods-IanStalker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE61BC15AC2E4817565E739 /* Pods-IanStalker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IanStalker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IanStalker/Pods-IanStalker.debug.xcconfig"; sourceTree = "<group>"; };
+		2852644B1AD6E2F500E7D7AD /* IanLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IanLocations.h; sourceTree = "<group>"; };
+		2852644C1AD6E2F500E7D7AD /* IanLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IanLocations.m; sourceTree = "<group>"; };
 		28F62A2D1ACDAA2700258EDE /* IanStalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IanStalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F62A311ACDAA2700258EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F62A321ACDAA2700258EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +52,11 @@
 		28F62A561ACDAAD900258EDE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		28F62A581ACDAADF00258EDE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		28F62A5A1ACDAC4500258EDE /* default.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = default.gpx; sourceTree = "<group>"; };
+		BA97CB54D3C34FD6B140B10F /* Pods-IanStalkerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IanStalkerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IanStalkerTests/Pods-IanStalkerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2F1B742B9B1B304E9057DD7 /* libPods-IanStalker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IanStalker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D0EE411D4E7A01A233C540 /* Pods-IanStalker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IanStalker.release.xcconfig"; path = "Pods/Target Support Files/Pods-IanStalker/Pods-IanStalker.release.xcconfig"; sourceTree = "<group>"; };
+		E43B4BA87C7F166B978DC926 /* libPods-IanStalkerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IanStalkerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F49E21E32FEC6BDCB89243 /* Pods-IanStalkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IanStalkerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IanStalkerTests/Pods-IanStalkerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,7 @@
 			files = (
 				28F62A591ACDAADF00258EDE /* MapKit.framework in Frameworks */,
 				28F62A571ACDAAD900258EDE /* CoreLocation.framework in Frameworks */,
+				77AB37181C498FF8C2F7BC4B /* libPods-IanStalker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0ABA2A2687311E2DA33A14 /* libPods-IanStalkerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,8 @@
 				28F62A2F1ACDAA2700258EDE /* IanStalker */,
 				28F62A491ACDAA2700258EDE /* IanStalkerTests */,
 				28F62A2E1ACDAA2700258EDE /* Products */,
+				2D3808FDD78C4030FEBA998D /* Pods */,
+				7A4837F8745E76DC570D2FE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +108,8 @@
 			children = (
 				28F62A341ACDAA2700258EDE /* AppDelegate.h */,
 				28F62A351ACDAA2700258EDE /* AppDelegate.m */,
+				2852644B1AD6E2F500E7D7AD /* IanLocations.h */,
+				2852644C1AD6E2F500E7D7AD /* IanLocations.m */,
 				28F62A371ACDAA2700258EDE /* ViewController.h */,
 				28F62A381ACDAA2700258EDE /* ViewController.m */,
 				28F62A3A1ACDAA2700258EDE /* Main.storyboard */,
@@ -130,6 +147,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2D3808FDD78C4030FEBA998D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EE61BC15AC2E4817565E739 /* Pods-IanStalker.debug.xcconfig */,
+				D3D0EE411D4E7A01A233C540 /* Pods-IanStalker.release.xcconfig */,
+				F1F49E21E32FEC6BDCB89243 /* Pods-IanStalkerTests.debug.xcconfig */,
+				BA97CB54D3C34FD6B140B10F /* Pods-IanStalkerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A4837F8745E76DC570D2FE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F1B742B9B1B304E9057DD7 /* libPods-IanStalker.a */,
+				E43B4BA87C7F166B978DC926 /* libPods-IanStalkerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F62A501ACDAA2700258EDE /* Build configuration list for PBXNativeTarget "IanStalker" */;
 			buildPhases = (
+				4E16174FE24C53D57A1BED8E /* Check Pods Manifest.lock */,
 				28F62A291ACDAA2700258EDE /* Sources */,
 				28F62A2A1ACDAA2700258EDE /* Frameworks */,
 				28F62A2B1ACDAA2700258EDE /* Resources */,
+				B8C16468E97924E2B58EAB2F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F62A531ACDAA2700258EDE /* Build configuration list for PBXNativeTarget "IanStalkerTests" */;
 			buildPhases = (
+				0AE0EC3C1B6E5C1912A4B59D /* Check Pods Manifest.lock */,
 				28F62A421ACDAA2700258EDE /* Sources */,
 				28F62A431ACDAA2700258EDE /* Frameworks */,
 				28F62A441ACDAA2700258EDE /* Resources */,
+				DE097C3705F678734786320B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,12 +267,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AE0EC3C1B6E5C1912A4B59D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E16174FE24C53D57A1BED8E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C16468E97924E2B58EAB2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IanStalker/Pods-IanStalker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE097C3705F678734786320B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IanStalkerTests/Pods-IanStalkerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28F62A291ACDAA2700258EDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28F62A391ACDAA2700258EDE /* ViewController.m in Sources */,
+				2852644D1AD6E2F500E7D7AD /* IanLocations.m in Sources */,
 				28F62A361ACDAA2700258EDE /* AppDelegate.m in Sources */,
 				28F62A331ACDAA2700258EDE /* main.m in Sources */,
 			);
@@ -353,6 +458,7 @@
 		};
 		28F62A511ACDAA2700258EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE61BC15AC2E4817565E739 /* Pods-IanStalker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IanStalker/Info.plist;
@@ -363,6 +469,7 @@
 		};
 		28F62A521ACDAA2700258EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D0EE411D4E7A01A233C540 /* Pods-IanStalker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IanStalker/Info.plist;
@@ -373,6 +480,7 @@
 		};
 		28F62A541ACDAA2700258EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F49E21E32FEC6BDCB89243 /* Pods-IanStalkerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -392,6 +500,7 @@
 		};
 		28F62A551ACDAA2700258EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA97CB54D3C34FD6B140B10F /* Pods-IanStalkerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -424,6 +533,7 @@
 				28F62A521ACDAA2700258EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28F62A531ACDAA2700258EDE /* Build configuration list for PBXNativeTarget "IanStalkerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +542,7 @@
 				28F62A551ACDAA2700258EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

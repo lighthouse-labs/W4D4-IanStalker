@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "IanLocations.h"
 
 @interface ViewController (){
     CLLocationManager *_locationManager;
@@ -29,30 +30,22 @@
     
     self.mapView.showsUserLocation =true;
     
+    [IanLocations addLocation:@"Ian's Place" withLat:49.2682029 andLng:-123.153424];
+    [IanLocations addLocation:@"Subeez" withLat:49.2783442 andLng:-123.1198427];
+    [IanLocations addLocation:@"Launch Academy" withLat:49.2808961 andLng:-123.1096094];
+    [IanLocations addLocation:@"Urban Beach" withLat:49.2706879 andLng:-123.0877297];
+    
     MKCoordinateRegion startingRegion;
-    CLLocationCoordinate2D loc = _locationManager.location.coordinate;
+    CLLocationCoordinate2D loc = [IanLocations centerLocation];
     startingRegion.center = loc;
     startingRegion.span.latitudeDelta = 0.02;
     startingRegion.span.longitudeDelta = 0.02;
-
-    MKPointAnnotation *apartmentMarker=[[MKPointAnnotation alloc] init];
-    CLLocationCoordinate2D iansApartmentLocation;
-    iansApartmentLocation.latitude = 49.2689754;
-    iansApartmentLocation.longitude = -123.153034;
-    apartmentMarker.coordinate = iansApartmentLocation;
-    apartmentMarker.title = @"Ian's Pad";
-    
-    MKPointAnnotation *officeMarker=[[MKPointAnnotation alloc] init];
-    CLLocationCoordinate2D launchAcademyLocation;
-    launchAcademyLocation.latitude = 49.2816252;
-    launchAcademyLocation.longitude = -123.1091366;
-    officeMarker.coordinate = launchAcademyLocation;
-    officeMarker.title = @"Ian's Office (for now)";
-    
-    [self.mapView addAnnotation:apartmentMarker];
-    [self.mapView addAnnotation:officeMarker];
     
     [self.mapView setRegion:startingRegion];
+    
+    for (MKPointAnnotation* annotation in [IanLocations iansLocations] ){
+        [self.mapView addAnnotation:annotation];
+    }
     
 }
 
