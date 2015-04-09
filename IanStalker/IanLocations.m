@@ -43,5 +43,9 @@
     return [IanLocations sharedArray];
 }
 
++(void) reset{
+    [[IanLocations sharedArray] removeAllObjects];
+}
+
 @end
 

@@ -6,7 +6,7 @@ target 'IanStalker' do
 end
 
 target 'IanStalkerTests' do
-    pod 'nocilla'
+    pod 'Nocilla'
     pod 'OCMock'
 end
 

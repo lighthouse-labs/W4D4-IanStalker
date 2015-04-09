@@ -18,4 +18,6 @@
 
 +(CLLocationCoordinate2D)centerLocation;
 
++(void) reset;
+
 @end
